@@ -1,3 +1,6 @@
+require("bootstrap");
+const createEl = require("./domMethods");
+
 $(document).ready( function() {
 
   const date = new Date();
